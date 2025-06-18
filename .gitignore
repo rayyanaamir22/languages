@@ -1,0 +1,34 @@
+# Ignore macOS and Xcode files
+.DS_Store
+*.dSYM/
+
+# Ignore build artifacts
+*.o
+*.out
+*.exe
+*.obj
+*.log
+*.a
+*.so
+*.dll
+*.bin
+*.swp
+
+# Ignore editor/project files
+*.vscode/
+*.idea/
+*.code-workspace
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore CMake and Make build folders
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore user solution folders if needed
+#sols/ 
