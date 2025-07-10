@@ -4,7 +4,8 @@ fn add(a: i32, b: i32) -> i32 {
     return a + b;
 }
 
-fn is_prime(n: i32) -> bool {
+// this is a public fn so we can import it in conditionals.rs
+pub fn is_prime(n: i32) -> bool {
     /*
     A prime number is a number that is only divisible by 1 and itself.
     We can check if a number is prime by checking if it is divisible by any number between 2 and the square root of the number (inclusive).
