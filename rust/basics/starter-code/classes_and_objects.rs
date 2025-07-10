@@ -1,9 +1,9 @@
 // TODO: Define a struct and implement methods for it.
-struct MyStruct {
+struct Cat {
     // Your fields here
 }
 
-impl MyStruct {
+impl Cat {
     // Your methods here
 }
 

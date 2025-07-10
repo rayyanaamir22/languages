@@ -1,9 +1,12 @@
 // TODO: Write a function that adds two numbers and call it from main.
 fn add(a: i32, b: i32) -> i32 {
     // Your code here
-    0
+}
+
+fn is_prime(n: i32) -> bool {
+    // your code here
 }
 
 fn main() {
-    // Your code here
-} 
+    // your code here
+}
