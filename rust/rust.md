@@ -33,6 +33,10 @@ You can run a single Rust file (for quick experiments) using:
 ```sh
 rustc your_file.rs
 ./your_file
+
+# e.g.
+rustc rust/basics/sols/arrays.rs -o rust/basics/sols/arrays
+./rust/basics/sols/arrays
 ```
 
 Or, using [cargo-script](https://github.com/DanielKeep/cargo-script) (if installed):
